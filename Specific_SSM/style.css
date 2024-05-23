@@ -1,0 +1,201 @@
+
+#rectangles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rectangle {
+    height: 30px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+
+.rectangle-12 {
+    width: 325px;
+}
+
+.rectangle-11 {
+    width: 300px;
+}
+
+.rectangle-10 {
+    width: 275px;
+}
+
+.rectangle-9 {
+    width: 250px;
+}
+
+.rectangle-8 {
+    width: 225px;
+}
+
+.rectangle-7 {
+    width: 200px;
+}
+
+.rectangle-6 {
+    width: 175px;
+}
+
+.rectangle-5 {
+    width: 150px;
+}
+
+.rectangle-4 {
+    width: 125px;
+}
+
+.rectangle-3 {
+    width: 100px;
+}
+
+.rectangle-2 {
+    width: 75px;
+}
+
+.rectangle-1 {
+    width: 50px;
+}
+
+#hint_id{
+    width: 100%;
+}
+/* .col-md-6 .button_test {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 14px 30px;
+font-size: 18px;
+
+color: black;
+background-color: white;
+text-align: left;
+cursor: pointer;
+width: 100%;
+
+} */
+
+.col-md-6 .button_test {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; this will center the button's content vertically */
+    width: 100%;
+    /* display: inline-block; */
+    padding: 14px 30px;
+    font-size: 18px;
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    
+    }
+    
+
+.question{
+font-size: 20px;
+}
+
+.button_test:hover{
+background-color: grey;
+}
+
+.show{
+font-size: 18px;
+padding: 14px 15px;
+color: black;
+background-color: orange;
+
+}
+.show:hover{
+background-color: darkorange;
+}
+
+button {
+display: inline-block;
+padding: 0px;
+width: auto; 
+}
+
+.btn{
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 14px 30px;
+    border: 5px solid black;
+/* padding: 10px 5px; */
+width: 100%;
+}
+
+
+#fiddyfiddy, #hints, #check{
+border: transparent;
+border-radius: 50%;
+background-color: transparent;
+}
+
+#fiddyfiddy:hover, #hints:hover, #check:hover{
+opacity: 0.7;
+}
+
+#loading-overlay {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 9999;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+#loading_symbol {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 4px solid #f3f3f3;
+border-top: 4px solid #3498db;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+#loading-text {
+position: absolute;
+top: 50%;
+left: 40%;
+text-align: center;
+color: white;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.centerbutton { 
+position: relative;
+}
+
+.center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}

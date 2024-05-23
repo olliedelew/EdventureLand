@@ -1,0 +1,179 @@
+body {
+  background-color: lightblue;
+}
+
+.boxy {
+  border: 5px solid black;
+  background-color: white;
+  width: 100%;
+  max-width: 70%;
+  position: absolute;
+  padding: 40px 40px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+
+.box {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 100px 150px;
+  background-color: white;
+  padding: 40px 40px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 40%;
+}
+
+#points-words{
+  font-size: 20px;    
+  border: 5px solid white;
+}
+
+#hints-number, #points-test {
+  font-size: 20px;    
+  border: 5px solid black;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#timer, #round {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#submit {
+  border: 5px solid black;
+  font-size: 30px;
+  background-color: lightgreen;
+  width: 100%;
+  height: 100px;
+  padding: 10px 40px;
+}
+
+#submit:hover {
+  background-color: green;
+}
+
+#error {
+  text-align: center;
+  margin-top: 15px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#equation {
+  border: 5px solid black;
+  background-color: lightblue;
+  margin: 20px 0px 20px 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#reveal_results{
+  border: 5px solid black;
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  overflow: scroll;
+  margin: 30px 0px 15px 0;
+  padding: 15px 0;
+  height: 100%;
+  width: 70%;
+}
+
+#hints{
+  background-color: lightcoral;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+#hints:hover{
+  background-color: red;
+}
+
+#fill_answer{
+  font-size: 30px
+}
+
+#fill_answer_correct{
+  border: 5px solid green;
+}
+
+#fill_answer_incorrect{
+  border: 5px solid red;
+}
+
+input {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  padding: 0px 5px;
+  border: 5px solid black;
+  width: 60px;
+  margin: 0px 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* remove the number up/down icons */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.results-box {
+  position: absolute;
+  align-items: center;
+  background-color: lightblue;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+#upload, #again {
+  border: 5px solid black;
+  font-size: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#upload:hover, #again:hover {
+  background-color: grey;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

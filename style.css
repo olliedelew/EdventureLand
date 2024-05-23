@@ -1,0 +1,270 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#achievements{
+    background-color: white;
+}
+.error {color: #FF0000;}
+
+
+body{
+background-color: lightblue;
+}
+
+.parent:hover {
+display: block;
+}
+
+.parent {
+position: relative;
+top: 0;
+left: 0;
+}
+.img-fluid:hover {
+filter: brightness(50%);
+cursor: pointer;
+}
+
+.prof_pic:hover {
+filter: brightness(50%);
+cursor: pointer;
+}
+
+#top_row{
+background-color: white;
+padding-top: 20px;
+border: 5px solid black;
+}
+
+.image1 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 150px;
+height: 150px;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.image1:hover{
+filter: brightness(50%);
+cursor: pointer;
+
+}
+
+.error {color: #FF0000;}
+
+
+.image2 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+height: 100px;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.image2:hover {
+filter: brightness(50%);
+cursor: pointer;
+}
+
+.image3 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+height: 100px;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.image_greyed{
+filter: brightness(20%);
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+height: 100px;
+position: relative;
+top: 0;
+left: 0;
+
+}
+
+a:hover {
+cursor: default;
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 5px solid black;
+    width: 80%;
+    animation-name: zoom-in-zoom-out;
+    animation-duration: 0.5s
+}
+
+.playBtn {
+    background-color: orange;
+}
+
+.newest {
+    border: 3px solid green;
+}
+
+#otherbtn{
+    background-color: blue;
+}
+#otherbtn:hover{
+    background-color: darkblue;
+}
+
+.ssm-btn{
+    background-color: green;
+}
+.math-btn{
+    background-color: purple;
+}
+.man-btn{
+    background-color: saddlebrown;
+}
+
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+
+    50% {
+        transform: scale(1.25, 1.25);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: blue;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: blue;
+    color: white;
+}
+
+#activated {
+    background-color: grey;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 14px 30px;
+    width: 100%;
+}
+
+#button6activated{
+    background-color: grey;
+}
+
+#button6 {
+    display: inline-block;
+    padding: 14px 30px;
+    font-size: 18px;
+
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+  #button6:hover {
+    background-color: #555;
+  }
+
+.button:hover {
+    background-color: grey;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 14px 30px;
+    width: 100%; 
+}
+
+button:hover {
+    background-color: grey;
+}
+
+
+.img-fluid {
+    display: block;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.col-sm-3 {
+    border: 5px solid black;
+}
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.caption {
+    display: block;
+    border-top: 5px solid black;
+    color: black;
+}
